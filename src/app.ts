@@ -13,8 +13,7 @@ app.use(express.json());
 
 app.post(
   '/products',
-  isValidInsertProduct.isValidInsertName,
-  isValidInsertProduct.isValidInsertAmount,
+  isValidInsertProduct.isValidInserProduct,
   productController.create,
 );
 app.get('/products', productController.getAll);

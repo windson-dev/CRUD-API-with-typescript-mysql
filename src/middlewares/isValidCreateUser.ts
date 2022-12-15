@@ -24,49 +24,10 @@ const isValidCreateUser = (req: Request, res: Response, next: NextFunction) => {
   }).validate(req.body);
 
   if (error) {
-    console.log(error.details[0].type);
     return res.status(validateStatus(error.details[0].type)).json({ message: error.message });
   }
 
-  next();
+  return next();
 };
-
-// const isValidUserName = async (req: Request, res: Response, next: NextFunction) => {
-//   const { username } = req.body;
-
-//   if (!username) {
-//     return res.status(400).json({ message: '"username" is required' });
-//   }
-
-//   if (typeof username !== 'string') {
-//     return res.status(422).json({ message: '"username" must be a string' });
-//   }
-
-//   if (username.length <= 2) {
-//     return res.status(422)
-//       .json({ message: '"username" length must be at least 3 characters long' });
-//   }
-
-//   return next();
-// };
-
-// const isValidVocation = async (req: Request, res: Response, next: NextFunction) => {
-//   const { vocation } = req.body;
-
-//   if (!vocation) {
-//     return res.status(400).json({ message: '"vocation" is required' });
-//   }
-
-//   if (typeof vocation !== 'string') {
-//     return res.status(422).json({ message: '"vocation" must be a string' });
-//   }
-
-//   if (vocation.length <= 2) {
-//     return res.status(422)
-//       .json({ message: '"vocation" length must be at least 3 characters long' });
-//   }
-
-//   return next();
-// };
 
 export default { isValidCreateUser };
