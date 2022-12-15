@@ -6,7 +6,7 @@ const login = async (userCredentials: UserCredentials) => {
   const loginUser = await loginModel.getByUserName(userCredentials.username);
 
   if (!loginUser || loginUser.password !== userCredentials.password) {
-    return { error: { message: 'Username or password invalid' } };
+    return { serviceError: { message: 'Username or password invalid' } };
   }
 
   const token = createToken(loginUser);
