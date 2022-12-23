@@ -161,7 +161,7 @@
   ```sh
   SELECT * FROM Trybesmith.products;
   ```
-
+<details>
   <summary><strong>🍪 Informações sobre a API </strong></summary><br />
   
   **⚠️ Leia as informações abaixo atentamente e siga à risca o que for pedido. ⚠️**
@@ -204,7 +204,7 @@
   ```
 
   Isso está configurado para o avaliador funcionar corretamente.
-
+</details>
 
 # Requisitos
 
