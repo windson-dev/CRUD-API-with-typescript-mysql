@@ -85,7 +85,7 @@
   <summary><strong>🎲 Diagrama Entidade Relacionamento do projeto</strong></summary><br />
   O banco de dados do projeto segue a estrutura abaixo:
 
-  <img src="images/diagram-der.png" height="200px" />
+   <img src="images/diagram-der.png" height="200px" />
 
 </details>
 <details>
