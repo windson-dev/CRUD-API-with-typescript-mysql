@@ -24,14 +24,6 @@
   - Sua API deve ser desenvolvida dentro da pasta `./src`.
 </details>
 
-<details>
-  <summary><strong>🗓 Data de Entrega</strong></summary><br />
-  
-  * Este projeto é individual
-  * Serão `2` dias de projeto
-  * Data para entrega regular do projeto: `16/01/2023 14:00`
-
-</details>
 
 # Orientações específicas deste projeto
 
