@@ -222,6 +222,7 @@
 ```
 
 <details close>
+  
   <summary>Além disso, as seguintes verificações serão feitas:</summary>
 
   <br>
