@@ -153,6 +153,7 @@
     FOREIGN KEY (order_id) REFERENCES Trybesmith.orders (id)
   );
   ```
+  </details>
 
   O arquivo `Trybesmith.sql` contém as _queries_ que criam e populam o banco como o teste faz, e os testes **restauram** o banco de dados após sua execução.
 
