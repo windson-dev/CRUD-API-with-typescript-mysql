@@ -1,4 +1,4 @@
-# Boas vindas ao repositório do projeto Trybesmith!
+# Boas vindas ao repositório do projeto Trybesmith!.
 
 
 # Entregáveis
